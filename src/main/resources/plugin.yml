@@ -1,0 +1,10 @@
+name: UnlockBending
+version: '${project.version}'
+main: me.seabarrel.unlockbending.UnlockBending
+api-version: 1.19
+depend: [ ProjectKorra ]
+authors: [ Seabarrel ]
+description: Able to unlock bending moves and controlling them
+permissions:
+  scroll.master:
+    default: op
